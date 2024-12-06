@@ -17,3 +17,17 @@ nav .nav-title{
 nav .nav-title .orange-text{
     color:  #fd6e0a;
 }
+nav > ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li{
+    margin-right: 50px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    color:  #474747;
+}
