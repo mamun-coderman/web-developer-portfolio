@@ -14,3 +14,6 @@ nav .nav-title{
     font-weight: 800;
     color:  #181818;
 }
+nav .nav-title .orange-text{
+    color:  #fd6e0a;
+}
