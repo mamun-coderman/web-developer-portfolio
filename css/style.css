@@ -8,6 +8,8 @@
 /* navigation part starts here */
 nav{
     display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 nav .nav-title{
     font-size: 45px;
@@ -20,6 +22,7 @@ nav .nav-title .orange-text{
 nav > ul{
     display: flex;
     list-style: none;
+    align-items: center;
 }
 nav ul li{
     margin-right: 50px;
@@ -40,3 +43,4 @@ nav ul li .btn-design{
     font-weight: 700;
     color: #fff;
 }
+/* Navigation var ends here */
