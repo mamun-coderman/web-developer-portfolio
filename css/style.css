@@ -5,6 +5,10 @@
     font-style: normal;
     
 }
+.header-design{
+    background:  #fff8f3;
+}
+
 /* navigation part starts here */
 nav{
     display: flex;
