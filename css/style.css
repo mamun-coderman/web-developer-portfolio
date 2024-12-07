@@ -48,3 +48,7 @@ nav ul li a{
     color: #fff;
 }
 /* Navigation var ends here */
+
+.banner{
+    display: flex;
+}
