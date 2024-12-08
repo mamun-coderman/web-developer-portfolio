@@ -52,3 +52,8 @@ nav ul li a{
 .banner{
     display: flex;
 }
+.banner-heading-three{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+}
