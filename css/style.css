@@ -12,8 +12,9 @@
 /* navigation part starts here */
 nav{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    padding: 0 200px;
 }
 nav .nav-title{
     font-size: 45px;
@@ -51,15 +52,17 @@ nav ul li a{
 
 .banner{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 30px 30px 200px;
 }
 .banner-heading-three{
-    font-size: 45px;
+    font-size: 40px;
     font-weight: 600;
     color: #474747;
 }
 .banner-heading-one{
-    font-size: 85px;
+    font-size: 65px;
     font-weight: 700;
     color:  #181818;
 }
