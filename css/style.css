@@ -7,6 +7,9 @@
 }
 .header-design{
     background:  #fff8f3;
+    background-image: url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 /* navigation part starts here */
@@ -54,7 +57,7 @@ nav ul li a{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 30px 30px 200px;
+    padding: 30px 30px 0 200px;
 }
 .banner-heading-three{
     font-size: 40px;
