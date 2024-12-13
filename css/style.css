@@ -90,10 +90,14 @@ nav ul li a{
 main{
     width: 1140px;
     margin: 0 auto;
+    margin-top: 100px;
 }
 .about-part{
-    height: 550px;
+    
     background-color:  #fff8f3;
+    padding: 150px 100px 150px 100px;
+    border-radius: 10px;
+    align-items: center;
 }
 .about-part > h2{
     font-size: 35px;
@@ -101,7 +105,7 @@ main{
     text-align: center;
     color: #181818;
 }
-.about-part>p{
+.about-part > p{
     font-size: 18px;
     font-weight: 400;
     line-height: 167%;
@@ -111,4 +115,16 @@ main{
 .about-info-container{
     display: flex;
     justify-content: space-around;
+}
+.info-title{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    color:  #757575;
+}
+.info-details{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color:  #474747;
 }
