@@ -86,3 +86,12 @@ nav ul li a{
     width: 584px;
     height: 676px;
 }
+/* Main part starts here */
+main{
+    width: 1140px;
+    margin: 0 auto;
+}
+.about-part{
+    height: 550px;
+    background-color:  #fff8f3;
+}
