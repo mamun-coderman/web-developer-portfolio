@@ -108,3 +108,7 @@ main{
     text-align: center;
     color:  #757575;
 }
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
