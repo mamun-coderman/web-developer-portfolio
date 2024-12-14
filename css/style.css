@@ -128,3 +128,17 @@ main{
     text-align: center;
     color:  #474747;
 }
+/* about part ends here */
+.what-doing > h2{
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    color:  #181818;
+}
+.what-doing > p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 167%;
+    text-align: center;
+    color: #757575;
+}
