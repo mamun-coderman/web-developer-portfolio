@@ -129,6 +129,9 @@ main{
     color:  #474747;
 }
 /* about part ends here */
+.what-doing{
+    margin-top: 100px;
+}
 .what-doing > h2{
     font-size: 35px;
     font-weight: 700;
@@ -141,4 +144,6 @@ main{
     line-height: 167%;
     text-align: center;
     color: #757575;
+    padding-left: 100px;
+    padding-right: 100px;
 }
