@@ -147,3 +147,19 @@ main{
     padding-left: 100px;
     padding-right: 100px;
 }
+.skill-container{
+    display: flex;
+    margin-right: 0;
+}
+.skill{
+    border-radius: 5px;
+    box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
+    background: #fff;
+    margin-right: 15px;
+}
+.skill-title{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: #181818;
+}
