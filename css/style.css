@@ -226,3 +226,6 @@ footer{
 .icon{
     padding-top: 10px;
 }
+.icon img{
+    padding-right: 15px;
+}
