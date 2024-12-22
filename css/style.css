@@ -201,3 +201,28 @@ main section{
 }
 /* resume part and main part ends here */
 /* footer part starts here */
+footer{
+    display: flex;
+    gap: 100px;
+    margin-top: 100px;
+    background:  #fff8f3;
+    padding: 250px 200px;
+}
+.footer-half{
+    width: 50%;
+    text-align: left;
+}
+.footer-half h3{
+    font-size: 35px;
+    font-weight: 700;
+    color: #181818;
+}
+.footer-half p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 175%;
+    color: #474747;
+}
+.icon{
+    padding-top: 10px;
+}
