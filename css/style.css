@@ -7,10 +7,11 @@
 }
 .header-design{
     background:  #fff8f3;
-    background-image: url("../images/header_bg.png");
+    background-image: url("../images/header_bg.png"), url("../images/developer.png");
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
 }
+
 
 /* navigation part starts here */
 nav{
@@ -81,6 +82,17 @@ nav ul li a{
     font-weight: 400;
     line-height: 167%;
     color:  #757575;
+}
+.contact{
+    border: 1px solid #fd6e0a;
+    border-radius: 5px;
+    padding: 18px 35px 19px 35px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: #fd6e0a;
+    background-color: #fff8f3;
+    margin-left: 20px;
 }
 .banner-image{
     width: 584px;
