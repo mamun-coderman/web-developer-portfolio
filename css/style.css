@@ -5,12 +5,14 @@
     font-style: normal;
     
 }
+body{
+    width: 100%;
+} 
 .header-design{
     background:  #fff8f3;
     background-image: url("../images/header_bg.png"), url("../images/developer.png");
     background-repeat: no-repeat;
     background-position: bottom right, top left;
-    width: 100%;
 }
 
 
