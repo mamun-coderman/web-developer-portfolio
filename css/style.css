@@ -257,4 +257,78 @@ footer{
     color: #757575;
 }
 /* footer part ends */
+/* Responsive CSS starts here */
+@media screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        padding: 20px;
+    }
+    nav ul {
+        flex-direction: column;
+        margin-top: 20px;
+        gap: 10px;
+    }
+    nav ul li {
+        margin-right: 0;
+    }
+    .banner {
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
+    }
+    .banner-content {
+        max-width: 100%;
+    }
+    .banner-image {
+        width: 80%;
+        height: auto;
+        margin-top: 20px;
+    }
+    main {
+        width: 90%;
+        margin: 50px auto 0 auto;
+    }
+    .about-info-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .skill-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .resume-container {
+        flex-direction: column;
+    }
+    footer {
+        flex-direction: column;
+        padding: 100px 20px;
+        gap: 50px;
+    }
+    .contact {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .what-doing > p {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+/* Smaller devices (like mobile phones) */
+@media screen and (max-width: 576px) {
+    .banner-heading-one {
+        font-size: 45px;
+    }
+    .banner-heading-three {
+        font-size: 25px;
+    }
+    .btn-design, .contact {
+        padding: 12px 20px;
+        font-size: 16px;
+    }
+    .section-heading {
+        font-size: 28px;
+    }
+}
 /* project end. */
