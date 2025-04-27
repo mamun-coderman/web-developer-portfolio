@@ -5,9 +5,7 @@
     font-style: normal;
     
 }
-body{
-    width: 100%;
-} 
+
 .header-design{
     background:  #fff8f3;
     background-image: url("../images/header_bg.png"), url("../images/developer.png");
